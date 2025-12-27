@@ -20,8 +20,8 @@ export default async function Page(props: {
   return (
     <DocsPage toc={page.data.toc} full={page.data.full} editOnGithub={{
       owner: 'emfont',
-      repo: 'emfont-doc',
-      sha: 'main',
+      repo: 'doc',
+      sha: 'fuma',
       // file path, make sure it's valid
       path: `content/docs/${page.file.path}`,
     }}>
